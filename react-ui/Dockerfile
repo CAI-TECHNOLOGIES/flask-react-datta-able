@@ -17,6 +17,6 @@ COPY . ./
 
 # Expose port
 EXPOSE 3000
-USER cai
+USER 1000
 # start app
 CMD ["npm", "start"]
